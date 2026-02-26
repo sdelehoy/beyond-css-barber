@@ -1,0 +1,17 @@
+{
+  "name": "website-starter-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^7.0.2",
+    "postcss-preset-env": "^7.8.3",
+    "sass": "^1.86.3",
+    "vite": "^6.2.6"
+  }
+}
