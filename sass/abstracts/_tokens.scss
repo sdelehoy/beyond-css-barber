@@ -72,3 +72,11 @@ $card-line-height: 1.25;
 $card-heading-font-family: $font-family-accent;
 $card-heading-color-default: $card-color-default;
 $card-heading-font-size: $font-size-600;
+
+// border-radius
+$border-radius-1: $size-2;
+$border-radius-2: $size-4;
+
+// shadows
+$box-shadow-1: 0 $size-1 $size-4 rgb(0 0 0 / 0.05);
+$box-shadow-2: 0 $size-1 $size-4 rgb(0 0 0 / 0.15);
