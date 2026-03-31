@@ -22,6 +22,13 @@ $body-background-color: $color-background-default;
 $link-color: $color-text-interactive-default;
 $link-color-hover: $color-text-interactive-hover;
 
+$heading-font-family: $font-family-accent;
+$heading-color-default: $body-text-color;
+$heading-font-weight: $font-weight-bold;
+$heading-letter-spacing: $letter-spacing-loose;
+$heading-line-height: 1;
+$heading-text-transform: uppercase;
+
 // Layout
 $grid-gap: $size-6;
 $flex-group-gap: $size-4;
@@ -61,12 +68,7 @@ $card-flow-spacing: $size-2;
 $card-body-padding: $size-8;
 $card-background-default: $color-primary-100;
 $card-color-default: $body-background-color;
-$card-font-family: $body-font-family;
 $card-line-height: 1.25;
 $card-heading-font-family: $font-family-accent;
 $card-heading-color-default: $card-color-default;
 $card-heading-font-size: $font-size-600;
-$card-heading-font-weight: $font-weight-bold;
-$card-heading-letter-spacing: $letter-spacing-loose;
-$card-heading-line-height: 1;
-$card-heading-text-transform: uppercase;
