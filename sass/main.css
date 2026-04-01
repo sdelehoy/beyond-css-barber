@@ -323,7 +323,7 @@ a:is(:hover, :focus) {
 }
 
 .section {
-  padding-block: clamp(5rem, 10vh, 6rem);
+  padding-block: clamp(5rem, 4.5665rem + 1.8497vw, 6rem);
 }
 
 .mx-auto {
