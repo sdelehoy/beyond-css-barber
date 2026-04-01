@@ -1,6 +1,7 @@
 @use '../abstracts/' as *;
 
 .nav {
+  --flex-column-gap: #{$navigation-spacing};
   list-style: none;
   display: flex;
   flex-wrap: wrap;
