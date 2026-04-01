@@ -1,0 +1,6 @@
+@use '../abstracts/' as *;
+
+.site-header {
+  color: $site-footer-color;
+  background-color: $site-footer-background-color;
+}

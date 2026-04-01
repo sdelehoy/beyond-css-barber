@@ -201,6 +201,11 @@ a:is(:hover, :focus) {
   justify-content: space-between;
 }
 
+.site-header {
+  color: var(--neutral-100);
+  background-color: var(--primary-800);
+}
+
 .even-columns {
   display: grid;
   gap: var(--grid-gap, 1.5rem);
