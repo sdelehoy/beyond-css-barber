@@ -1,4 +1,4 @@
-@use 'abstracts' as *;
+@use '../abstracts/' as *;
 
 .nav {
   list-style: none;
@@ -13,6 +13,7 @@
 	  font-size: $navigation-font-size;
     letter-spacing: $navigation-letter-spacing;
     text-decoration: none;
+    text-transform: $navigation-text-transform;
   
     &:is(:hover, :focus) {
       color: $navigation-color-hover;
