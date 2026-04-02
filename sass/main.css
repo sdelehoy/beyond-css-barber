@@ -201,8 +201,8 @@ a:is(:hover, :focus) {
   justify-content: space-between;
 }
 
-.site-header {
-  color: var(--neutral-100);
+.site-footer {
+  color: var(--primary-300);
   background-color: var(--primary-800);
 }
 
