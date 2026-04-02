@@ -214,6 +214,10 @@ a:is(:hover, :focus) {
   padding: 2rem 0;
 }
 
+.hero-flex-wrapper {
+  display: flex;
+}
+
 .even-columns {
   display: grid;
   gap: var(--grid-gap, 1.5rem);
