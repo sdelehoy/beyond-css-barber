@@ -204,6 +204,7 @@ a:is(:hover, :focus) {
 .site-footer {
   color: var(--primary-300);
   background-color: var(--primary-800);
+  padding: 2rem 0;
 }
 
 .even-columns {
