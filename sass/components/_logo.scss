@@ -1,0 +1,8 @@
+@use "../abstracts/" as *;
+
+.logo {
+  color: $logo-color;
+  font-family: $logo-font-family;
+  font-size: $logo-font-size;
+  letter-spacing: $logo-letter-spacing;
+}

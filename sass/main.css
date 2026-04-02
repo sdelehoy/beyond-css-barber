@@ -169,6 +169,13 @@ a:is(:hover, :focus) {
   line-height: 1;
 }
 
+.logo {
+  color: var(--primary-300);
+  font-family: "Alegreya SC", serif;
+  font-size: var(--fs-500);
+  letter-spacing: 0.16em;
+}
+
 .nav {
   --flex-column-gap: 2.5rem;
   list-style: none;
@@ -1071,4 +1078,8 @@ a:is(:hover, :focus) {
 
 .flow > *:where(:not(:first-child)) {
   margin-top: var(--flow-spacer, 1rem);
+}
+
+.letter-spacing-loose {
+  letter-spacing: 0.16em;
 }/*# sourceMappingURL=main.css.map */
