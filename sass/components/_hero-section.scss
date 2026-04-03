@@ -1,5 +1,6 @@
 @use "../abstracts/" as *;
 
-.hero-flex-wrapper {
-  display: flex;
+.hero-columns {
+  display: grid;
+  grid-template-columns: 1fr 433px;
 }

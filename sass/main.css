@@ -214,8 +214,9 @@ a:is(:hover, :focus) {
   padding: 2rem 0;
 }
 
-.hero-flex-wrapper {
-  display: flex;
+.hero-columns {
+  display: grid;
+  grid-template-columns: 1fr 433px;
 }
 
 .even-columns {
