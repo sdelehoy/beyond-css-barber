@@ -2,5 +2,5 @@
 
 .hero-columns {
   display: grid;
-  grid-template-columns: 1fr 433px;
+  grid-template-columns: repeat(auto-fit);
 }
