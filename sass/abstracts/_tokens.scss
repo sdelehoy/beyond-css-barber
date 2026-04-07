@@ -75,7 +75,7 @@ $button-primary-background-hover: $color-primary-800;
 $card-flow-spacing: $size-2;
 $card-body-padding: $size-8;
 $card-background-default: $color-primary-100;
-$card-color-default: $body-background-color;
+$card-color-default: $color-text-default;
 $card-font-family: $body-font-family;
 $card-line-height: 1.25;
 $card-heading-font-family: $font-family-accent;
@@ -101,6 +101,8 @@ $navigation-font-weight: $font-weight-bold;
 $navigation-letter-spacing: $letter-spacing-loose;
 $navigation-spacing: $size-9;
 $navigation-text-transform: uppercase;
+
+// services section
 
 // site footer
 $site-footer-background-color: $color-primary-800;
