@@ -3,7 +3,7 @@
 .hero-columns {
   display: grid;
   grid-template-columns: 1;
-  gap: 48px;
+  gap: $size-10;
   align-items: center;
   justify-items: center;
   @include mq(medium) {
@@ -15,11 +15,13 @@
   text-align: center;
   & .flex-group {
     margin-inline: auto;
+    justify-content: center;
   }
   @include mq(medium) {
     text-align: left;
     & .flex-group {
       margin: 0;
+      justify-content: start;
     }
   }
 }

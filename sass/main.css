@@ -223,7 +223,7 @@ a:is(:hover, :focus) {
 .hero-columns {
   display: grid;
   grid-template-columns: 1;
-  gap: 48px;
+  gap: 3rem;
   align-items: center;
   justify-items: center;
 }
@@ -238,6 +238,7 @@ a:is(:hover, :focus) {
 }
 .hero-column-text .flex-group {
   margin-inline: auto;
+  justify-content: center;
 }
 @media screen and (min-width: 45em) {
   .hero-column-text {
@@ -245,6 +246,7 @@ a:is(:hover, :focus) {
   }
   .hero-column-text .flex-group {
     margin: 0;
+    justify-content: start;
   }
 }
 
