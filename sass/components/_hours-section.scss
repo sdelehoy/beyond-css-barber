@@ -2,12 +2,31 @@
 
 .hours-wrapper {
   display: flex;
-  gap: $size-9;
   flex-wrap: wrap;
-  align-items: center;
+  // column-gap: $size-9;
+  // row-gap: $size-9;
+  justify-content: center;
 }
 
-.hours-days-wrapper {
+.hours-day-wrapper {
   display: flex;
+  flex-direction: column;
   gap: $size-2;
+  padding-inline: 36px;
+  // &::before, &::after {
+  //   content: "|";
+  //   color: #000;
+  //   height: fit-content;
+  //   width: fit-content;
+  // }
+}
+.hours-divider {
+  display: flex;
+  align-items: center;
+  &::before, &::after {
+    content: "";
+    background-color: #000;
+    height: 26px;
+    width: 1px;
+  }
 }

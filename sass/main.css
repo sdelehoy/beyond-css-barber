@@ -250,6 +250,30 @@ a:is(:hover, :focus) {
   }
 }
 
+.hours-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hours-day-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-inline: 36px;
+}
+
+.hours-divider {
+  display: flex;
+  align-items: center;
+}
+.hours-divider::before, .hours-divider::after {
+  content: "";
+  background-color: #000;
+  height: 26px;
+  width: 1px;
+}
+
 .even-columns {
   display: grid;
   gap: var(--grid-gap, 1.5rem);
