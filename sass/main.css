@@ -253,6 +253,7 @@ a:is(:hover, :focus) {
 .hours-wrapper {
   display: flex;
   flex-wrap: wrap;
+  row-gap: 2.5rem;
   justify-content: center;
 }
 
@@ -260,16 +261,22 @@ a:is(:hover, :focus) {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  padding-inline: 36px;
+  padding-inline: 2.5rem;
 }
 
 .hours-divider {
   display: flex;
   align-items: center;
 }
-.hours-divider::before, .hours-divider::after {
+.hours-divider::before {
   content: "";
-  background-color: #000;
+  background-color: hsl(from var(--primary-700) h s l/0.5);
+  height: 26px;
+  width: 1px;
+}
+.hours-divider:last-of-type::after {
+  content: "";
+  background-color: hsl(from var(--primary-700) h s l/0.5);
   height: 26px;
   width: 1px;
 }
