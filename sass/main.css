@@ -203,9 +203,15 @@ a:is(:hover, :focus) {
 }
 .site-header__layout {
   display: flex;
-  gap: 1rem;
-  align-items: start;
-  justify-content: space-between;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 45em) {
+  .site-header__layout {
+    justify-content: space-between;
+    align-items: start;
+  }
 }
 
 .site-footer {
@@ -216,7 +222,30 @@ a:is(:hover, :focus) {
 
 .hero-columns {
   display: grid;
-  grid-template-columns: repeat(auto-fit);
+  grid-template-columns: 1;
+  gap: 48px;
+  align-items: center;
+  justify-items: center;
+}
+@media screen and (min-width: 45em) {
+  .hero-columns {
+    grid-template-columns: 1fr auto;
+  }
+}
+
+.hero-column-text {
+  text-align: center;
+}
+.hero-column-text .flex-group {
+  margin-inline: auto;
+}
+@media screen and (min-width: 45em) {
+  .hero-column-text {
+    text-align: left;
+  }
+  .hero-column-text .flex-group {
+    margin: 0;
+  }
 }
 
 .even-columns {

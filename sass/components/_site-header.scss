@@ -7,8 +7,12 @@
 
   &__layout {
     display: flex;
-    gap: $size-4;
-    align-items: $site-header-alignment;
-    justify-content: $site-header-justification;
+    gap: $size-8;
+    justify-content: center;
+    flex-wrap: wrap;
+    @include mq(medium) {
+      justify-content: $site-header-justification;
+      align-items: $site-header-alignment;
+    }
   }
 }

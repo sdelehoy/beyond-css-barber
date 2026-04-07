@@ -2,5 +2,24 @@
 
 .hero-columns {
   display: grid;
-  grid-template-columns: repeat(auto-fit);
+  grid-template-columns: 1;
+  gap: 48px;
+  align-items: center;
+  justify-items: center;
+  @include mq(medium) {
+    grid-template-columns: 1fr auto;
+  }
+}
+
+.hero-column-text {
+  text-align: center;
+  & .flex-group {
+    margin-inline: auto;
+  }
+  @include mq(medium) {
+    text-align: left;
+    & .flex-group {
+      margin: 0;
+    }
+  }
 }
