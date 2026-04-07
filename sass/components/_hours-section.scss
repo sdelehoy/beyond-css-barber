@@ -1,0 +1,13 @@
+@use "../abstracts/" as *;
+
+.hours-wrapper {
+  display: flex;
+  gap: $size-9;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.hours-days-wrapper {
+  display: flex;
+  gap: $size-2;
+}

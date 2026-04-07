@@ -124,14 +124,14 @@ a:is(:hover, :focus) {
   padding: 2rem;
   background-color: var(--primary-100);
   font-family: "Source Sans Pro", sans-serif;
-  color: var(--primary-100);
+  color: var(--primary-700);
   line-height: 1.25;
   border-radius: 1rem;
   box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.05);
 }
 .card__heading {
   font-size: var(--fs-600);
-  color: var(--primary-100);
+  color: var(--primary-700);
   font-family: "Alegreya SC", serif;
   text-transform: uppercase;
   letter-spacing: 0.16em;
