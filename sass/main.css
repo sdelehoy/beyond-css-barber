@@ -281,6 +281,51 @@ a:is(:hover, :focus) {
   width: 1px;
 }
 
+.contact-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -moz-column-gap: 1.75rem;
+       column-gap: 1.75rem;
+  row-gap: 1rem;
+}
+.contact-form .button {
+  grid-column-end: -1;
+  justify-self: end;
+  margin-block-start: 1rem;
+}
+
+.form-group {
+  display: grid;
+}
+.form-group label {
+  color: var(--primary-700);
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  font-size: var(--fs-400);
+}
+.form-group input {
+  color: var(--primary-700);
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 500;
+  font-size: var(--fs-400);
+  background-color: var(--neutral-100);
+  border: 3px solid var(--primary-200);
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+}
+.form-group input::-moz-placeholder {
+  color: var(--primary-300);
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 500;
+  font-size: var(--fs-400);
+}
+.form-group input::placeholder {
+  color: var(--primary-300);
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 500;
+  font-size: var(--fs-400);
+}
+
 .even-columns {
   display: grid;
   gap: var(--grid-gap, 1.5rem);
