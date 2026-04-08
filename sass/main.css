@@ -283,7 +283,7 @@ a:is(:hover, :focus) {
 
 .contact-form {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   -moz-column-gap: 1.75rem;
        column-gap: 1.75rem;
   row-gap: 1rem;
@@ -292,6 +292,11 @@ a:is(:hover, :focus) {
   grid-column-end: -1;
   justify-self: end;
   margin-block-start: 1rem;
+}
+@media screen and (min-width: 45em) {
+  .contact-form {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 .form-group {
